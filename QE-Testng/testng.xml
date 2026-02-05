@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="My First Test Suite">
+    <test name="My First Test">
+        <classes>
+            <class name="demos.TestActivity6" />
+            <class name="demos.TestActivity7" />
+
+        </classes>
+    </test>
+</suite>
+<!--mvn test -DsuiteXmlFile=testng.xml -->
+
